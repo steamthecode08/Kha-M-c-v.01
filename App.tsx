@@ -11,7 +11,7 @@ import LoadingScreen from './components/LoadingScreen';
 
 const App: React.FC = () => {
   // Application Boot State
-  const [isLoaded, setIsLoaded] = useState(true);
+  const [isLoaded, setIsLoaded] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
 
   // Application Window States
